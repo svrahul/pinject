@@ -48,7 +48,7 @@ class FieldInjectionTargetBean {
   public String systemProperty;
 
   // tests an EL-expression that uses an environment function
-  @Inject @Property("#{e:required('PATH')}")
-  public String path;
+  //@Inject @Property("#{e:required('PATH')}")
+  //public String path;
 
 }
